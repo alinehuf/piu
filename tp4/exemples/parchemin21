@@ -1,0 +1,22 @@
+
+Les permissions que vous manipulerez souvent sont les droits de
+lecture (r comme read), d'écriture (w comme write) et d'exécution (x).
+
+Par exemple, pour ajouter les droits de lecture, écriture et exécution
+au propriétaire d'un fichier, vous pouvez utiliser la commande 
+'chmod u+rwx fichier'.
+
+Pour ajouter le droit de lecture à un groupe se sera :
+'chmod g+r fichier'.
+
+Consultez le manuel de chmod pour en savoir plus.
+
+Attention, il faut faire preuve d'autorité pour faire de tels
+changement ! Si on vous indique que vous n'avez pas le droit de
+changer les permissions d'un fichier, ajoutez la mention 'sudo' au
+début de votre ligne de commande. Ensuite, donnez votre mot de passe
+quand on vous le réclame.
+
+Allez à vous de jouer ! Remontez d'un niveau et débloquez l'accès pour
+entrer dans la tour ! Lisez le message qui est dans la tour.
+

@@ -1,0 +1,3 @@
+# archives compressées (copies des répertoires pour export)
+*.tar.gz
+*~

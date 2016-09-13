@@ -1,0 +1,17 @@
+
+La commande chmod permet de modifier les 'permissions' ou droits
+d'accès aux dossiers et fichiers.
+
+Il existe 4 type d'entités dont on peut modifier les permissions avec
+la commande 'chmod' : le propriétaire d'un fichier (u comme user), le
+groupe auquel appartient le fichier (g comme group), les autres
+utilisateur de la machine (o comme other) ou tout le monde (a comme
+all).
+
+Avec 'chmod', on peut ajouter un droit (+) à ceux qui existent déjà,
+donner un droit (=) qui remplace tous ceux qui existent déjà ou
+retirer un droit (-).
+
+Pour en savoir plus, entrez dans le répertoire 'exemples' et consultez
+le seul parchemin qui appartient à un groupe dont vous faites partie.
+

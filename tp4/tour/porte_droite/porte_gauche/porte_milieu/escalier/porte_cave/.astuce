@@ -1,0 +1,16 @@
+
+Astuce 1.  
+Le répertoire /etc/skel contient un modèle de répertoire personnel
+pour les nouveaux utilisateurs. Copiez ce prépertoire à l'emplacement
+/home/perm. Utilisez l'option -a pour préserver toutes les
+caractéristiques du modèle.
+
+Astuce 2.
+Il faut modifier le propriétaire et le groupe du dossier /home/perm et
+de tout son contenu récursivement (man chown). L'utilisateur et le
+groupe doivent être perm et users.
+
+Astuce 3.
+Utilisez la commande 'passwd perm' pour donner un mot de passe
+initial, ce qui débloquera le compte.
+

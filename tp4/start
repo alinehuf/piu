@@ -1,0 +1,26 @@
+#!/bin/bash
+
+alias astuce='if [[ -f .astuce ]] ; then cat .astuce ; else echo "Aucune astuce pour cette étape." ; fi'
+alias perm="if [[ -f .perm ]] ; then source .perm ; else echo \"Le Permissionneur dit qu'il n'a rien a vous enseigner ici.\" ; fi"
+
+echo
+echo "Vous êtes arrivés avec le Permissionneur au pied de la tour indiquée dans"
+echo "le  mystérieux message du coffre. Cette tour a l'air bien défendue... Le "
+echo "permissionneur vous propose de vous enseigner son savoir. Il vous indique"
+echo "que le premier indice dont vous avez besoin pour pénétrer dans la tour est"
+echo "dans un parchemin de ce répertoire dont il vous a donné la propriété. Ouvrez"
+echo "ce parchemin et lisez-le."
+echo "Notez que vous pouvez toujours utilisez la commande 'astuce'."
+echo
+
+cd /export/tp4/
+
+sudo chown $USER:users ./parchemin33
+sudo chmod go-rxw ./tour/porte_droite/porte_droite/escalier/escalier/porte_rouge
+sudo chmod go-rxw ./tour/porte_droite/porte_droite/escalier/escalier/porte_bleue
+sudo chmod go-rxw ./tour/porte_droite/porte_gauche/porte_milieu/escalier/porte_droite
+sudo chmod go-rxw ./tour/porte_droite/porte_gauche/porte_milieu
+sudo chmod -R a-r ./tour/coffre
+sudo chmod go-rwx ./tour
+
+export PS1='\u@\h \$ '

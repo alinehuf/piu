@@ -1,0 +1,21 @@
+echo 
+echo "A ton avis, il y a combien d'utilisateurs sur cette machine ?"
+
+read u
+if [ $u -eq $(users | wc -w) ]; then
+   echo "Oui, et je n'en vais pas partie !! C'est un scandale !"
+   echo
+   echo "Et combien y a-t-il de groupes ?"
+   
+   read g
+   if [ $g -eq $(groups | wc -w) ]; then
+      echo "Oui, et je ne fais partie d'aucun d'eux !! C'est un scandale !"
+
+      echo "Il faut absolument que tu me crée un compte utilisateur !"
+      echo "Descend l'escalier et mets toi au travail."
+   else
+      echo "Non, reviens me voir quand tu auras les bonnes réponses."
+   fi
+else
+   echo "Non, reviens me voir quand tu auras la bonne réponse." 
+fi

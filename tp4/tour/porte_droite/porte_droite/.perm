@@ -1,0 +1,18 @@
+if [ "$(cat /etc/group | grep "guilde")" == "" ]; then
+   echo
+   echo "A mon avis l'inscription indique qu'il faut créer un groupe"
+   echo "nommé 'guilde' et en devenir tous les deux membres"
+   echo
+elif [ "$(groups perm | grep "guilde")" == "" ]; then
+   echo
+   echo "Tu as oublié de faire de moi un membre de la guilde !"
+   echo
+elif [ "$(groups $USER | grep "guilde")" == "" ]; then
+   echo
+   echo "Et toi tu n'es pas membre de la guilde ?"
+   echo
+elif [ "$(cat /etc/group | grep "guilde")" != "" ] && [ "$(groups perm | grep "guilde")" != "" ] && [ "$(groups $USER | grep "guilde")" != "" ]; then
+   echo
+   echo "Ok, on est parrés, descendons l'escalier"
+   echo
+fi

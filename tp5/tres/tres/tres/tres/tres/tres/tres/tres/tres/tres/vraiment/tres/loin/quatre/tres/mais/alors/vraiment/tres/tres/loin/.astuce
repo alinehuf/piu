@@ -1,0 +1,8 @@
+
+Astuce 1.
+Pour rediriger la sortie d'un processus on peut utiliser le caractère '>'. 
+
+Astuce 2.
+Par exemple pour rediriger le discours du perroquet dans le fichier
+'discours', on peut utiliser la commande './perroquet > discours'.
+

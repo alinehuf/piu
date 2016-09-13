@@ -1,0 +1,25 @@
+SOLDAT=0
+
+for f in ./soldat*; do
+        if [ -e $f ]; then
+                SOLDAT=`expr $SOLDAT + 1`
+        fi
+done
+
+echo
+echo "Il y a $SOLDAT soldat(s) dans la garnison."
+
+if [[ $SOLDAT -ne 0 ]]; then
+        echo   
+        echo "Pour pouvoir lire les parchemins, il faut d'abord éliminer tous les"
+        echo "soldats. Attention à ne pas détruire les parchemins dans la bataille !"
+        echo
+else
+	chmod u+rwx parchemin1.txt
+	chmod u+rwx parchemin2.txt
+	echo
+	echo "Maintenant, on peut lire les fichiers 'parchemin_1.txt' et" 
+	echo "'parchemin_2.txt', mais ils semblent très longs et identiques"
+	echo "et je ne vois pas l'indice... On pourrait tenter de les comparer ?"
+	echo
+fi

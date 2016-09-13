@@ -1,0 +1,25 @@
+
+Astuce 1.
+Le 'message' placé dans ce répertoire a été tout brouillé. Chaque
+ligne a été recopiée un grand nombre de fois et elles ont toutes été
+mélangées. Triez les lignes de ce panneau et supprimez tous les
+doublons.
+
+Astuce 2.
+Pour trier un fichier utiliser la commande 'sort'.
+
+Astuce 3.
+Pour supprimer les doublons d'un fichier il faut utiliser 'uniq'
+(attention, le fichier doit avoir été trié avant).
+
+Astuce 4.
+Pour éviter d'avoir à rediriger le résultat d'une commande dans un
+fichier pour appliquer ensuite une seconde commande dessus, vous
+pouvez utiliser un pipe '|'.
+
+Par exemple : 'ls -1 | sort | head -n 5' Dans cette commande, on
+commence par lister les fichiers avec l'option -1 qui permet
+d'afficher un seul fichier par ligne. On transmet ensuite le résultat
+à 'sort' qui va le trier, puis ce résultat trié est envoyé à 'head -n
+5' qui ne va afficher que les 5 premières lignes.
+

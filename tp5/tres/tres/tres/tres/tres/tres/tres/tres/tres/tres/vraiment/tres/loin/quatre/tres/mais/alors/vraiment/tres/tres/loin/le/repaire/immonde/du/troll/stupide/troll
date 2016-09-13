@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Oh mince, j'ai encore fait une erreur !" 1>&2

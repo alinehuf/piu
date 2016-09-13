@@ -1,0 +1,23 @@
+#!/bin/bash
+
+alias astuce='if [[ -f .astuce ]] ; then cat .astuce ; else echo "Aucune astuce pour cette étape." ; fi'
+
+echo
+echo "Vous avez rejoins le mage Norbert dans la forêt. Il est heureux"
+echo "de faire votre connaissance. Il vous indique que le prochain indice se"
+echo "trouve dans le répertoire"
+echo "tres/tres/tres/tres/tres/tres/tres/tres/tres/tres/tres/tres/tres/tres/loin."
+echo
+echo "C'est vraiment très loin !  Il dit que vous devriez l'aider à créer"
+echo "un portail ou 'lien symbolique' pour vous y rendre plus vite."
+echo
+echo "Cela me rappelle un truc que les habitants du royaume de Windows"
+echo "utilisent... Ils appelent ça un raccourcis !"
+echo
+echo "PS : vous pouvez toujours utiliser 'astuce'."
+echo 
+
+cd /export/tp5/
+export PATH="/export/tp5:$PATH"
+
+export PS1='\u@\h \$ '

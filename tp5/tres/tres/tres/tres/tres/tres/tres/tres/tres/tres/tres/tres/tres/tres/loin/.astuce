@@ -1,0 +1,12 @@
+
+Astuce 1.
+Il y a un message par terre.
+
+Astuce 2.  
+Utiliser la commande 'file' pour connaître le type d'un fichier ou
+utilisez 'ls' pour afficher le listing détaillé, la première lettre
+au début de chaque ligne indique :
+- '-' un fichier normal, 
+- 'd' un répertoire,
+- 'l' un lien symbolique.
+

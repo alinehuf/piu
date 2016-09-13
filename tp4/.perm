@@ -1,0 +1,5 @@
+echo
+echo "le premier indice dont vous avez besoin pour pénétrer dans la tour est"
+echo "dans un parchemin de ce répertoire dont vous êtes propriétaire. Ouvrez"
+echo "ce parchemin et lisez-le."
+echo

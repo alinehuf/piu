@@ -1,0 +1,13 @@
+if [ -e "cri" ] && [ "$(cat cri)" == "fiche moi la paix !" ]; then 
+   echo
+   echo "Super je vais pouvoir l'écouter et le réécouter encore !"
+   echo "Celui qui a caché le trésor est dans le répertoire nommé"
+   echo "le/repaire/immonde/du/troll/stupide"
+   echo
+else  
+   echo
+   echo "Je suis un perroquet qui adore les cris de lutins !" 
+   echo "S'il te plait redirige les cris du lutin dans un fichier"
+   echo "nommé 'cri' !"
+   echo
+fi

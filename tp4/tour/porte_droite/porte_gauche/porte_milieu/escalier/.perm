@@ -1,0 +1,14 @@
+
+INUSERS=$(cat /etc/passwd | grep "perm")
+if [[ $INUSERS ]]; then
+   echo
+   echo "Je suis sans la liste des utilisateurs, la belle affaire !"
+   echo "Mais où est mon répertoire répertoire personnel ?! Il faut le créer"
+   echo "maintenant qu'il est déclaré dans /etc/passwd !"
+   echo "rentre dans la cave et au boulot !"
+   echo
+else
+   echo
+   echo "Je ne vois toujours pas d'utilisateur "perm" dans /etc/passwd ..."
+   echo
+fi

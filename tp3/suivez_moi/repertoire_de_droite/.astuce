@@ -1,0 +1,10 @@
+
+Astuce 1.
+Il faut encore descendre d'un niveau vers la droite et un niveau vers la gauche.
+Ensuite trouver la section "Indications" dans un des fichiers du répertoire. Je
+ne me rappelle plus dans quel fichier c'était.
+
+Astuce 2.
+rmdir ne peux détruire qu'un répertoire vide... rm -r peut détruire un 
+répertoire contenant des fichiers.
+

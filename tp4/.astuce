@@ -1,0 +1,14 @@
+
+Astuce 1.
+Cherchez dans le manuel comment obtenir un listing détaillé des
+fichiers avec ls. Ce listing détaillé vous affichera des informations
+sur les fichiers comme l'utilisateur qui en est propriétaire.
+
+Astuce 2.
+Le nom de l'utilisateur propriétaire est affiché dans la 3eme
+colonne...
+
+Astuce 3.
+Je vous rapelle que pour lire un fichier vous pouvez utiliser cat ou
+less.
+

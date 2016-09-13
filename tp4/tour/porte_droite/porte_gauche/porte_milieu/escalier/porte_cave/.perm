@@ -1,0 +1,14 @@
+MYHOME=$(ls -ld /home/perm/.bashrc 2> /dev/null | cut -f 3 -d " ")
+MYPSSWD=$(cat /etc/passwd | grep "perm" | cut -f 2 -d ":")
+
+if [ ! -e /home/perm ]; then
+   echo "Je n'ai toujours pas de dossier personnel /home/perm !"
+elif [ ! "$MYHOME" == "perm" ]; then
+   echo "Le dossier /home/perm ne m'appartient pas en intégralité !"
+elif [ ! "$MYPSSWD" == "x" ]; then
+   echo "Je n'ai pas de mot de passe, mon compte n'est pas activé !"
+elif [[ -e /home/perm ]] && [[ $MYHOME = "perm" ]] && [[ $MYPSSWD = "x" ]]; then 
+   echo "ok c'est beaucoup mieux. Pendant que tu faisais ça,"
+   echo "j'ai trouvé un indice dans la bouteille 10."
+   echo " Lis le fichier correspondant."
+fi

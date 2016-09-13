@@ -1,0 +1,17 @@
+if [ "$(users | grep "chevron")" == "" ]; then 
+   echo
+   echo "C'est cool que j'aie un compte sur cette machine. Pendant que"
+   echo "j'y pense, Marlene, la fille sur laquelle j'ai des vues aimerait"
+   echo "surement avoir un compte elle aussi. Je pourrais lui proposer"
+   echo "d'explorer son répertoire personnel tous les deux, ce serait une"
+   echo "bonne occasion de la séduire... Il faut lui créer aussi un compte"
+   echo "utilisateur. Je crois qu'il existe une astuce pour aller plus vite"
+   echo "que tout à l'heure. Pendant que tu fais ça, je vais déchiffrer"
+   echo "l'inscription."
+   echo
+else
+   echo
+   echo "Bon j'ai finalement pu déchiffrer l'inscription sur le mur, elle"
+   echo "dit de remonter de trois niveaux et de passer la porte de droite."
+   echo
+fi

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo 
+echo "Je suis un perroquet ! crrrooo"
+echo "Je vous ai vu passer avant que vous entriez dans un portail"
+echo "Je n'ai rien d'utile à vous dire !"
+echo
+echo "Juste ceci : quand vous lancez un processus sans indiquer son chemin"
+echo "(relatif ou absolu), la machine utilise les chemins contenus dans la"
+echo "variable \$PATH pour savoir où elle pourrait le trouver."
+echo
+echo "la commande 'echo \$PATH' vous montrera le contenu de \$PATH"
+echo
+echo "Les chemins sont séparés par le caractère ':', regardez bien, moi je"
+echo "suis dans '/export/tp5'."
+echo

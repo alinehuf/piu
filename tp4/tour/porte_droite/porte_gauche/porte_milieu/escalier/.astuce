@@ -1,0 +1,36 @@
+
+Astuce 1.
+Le fichier /etc/passwd contient la liste des comptes utilisateur
+déclarés sur cette machine. Voici a quoi peut ressembler son contenu :
+
+    root:x:0:0:Super Utilisateur:/root:/bin/bash
+    dupont:x:2000:100:Marcel Dupont:/home/dupont:/bin/bash
+    sdupont:x:0:0:Super Utilisateur Dupont:/root:/bin/bash
+
+La seconde ligne décrit le compte d'utilisateur dupont, qui a le
+numéro d'utilisateur 2000, qui appartient au groupe 100, dont le "vrai
+nom" est Marcel Dupont. Il a son répertoire d'accueil dans
+/home/dupont et son shell par défaut est /bin/bash.
+
+La valeur x dans le second champ indique que son mot de passe crypé
+est stocké dans le fichier /etc/shadow
+
+Consultez le fichier /etc/passwd pour vous familiarisez avec son contenu.
+
+Astuce 2.
+Ajouter une ligne pour le Permissionneur dans /etc/passwd
+- Son nom d'utilisateur est "perm", 
+- Son mot de passe doit être '!' pour le moment (pour indiquer qu'il est
+  encore indéfini)
+- Il faut lui donner un numéro d'utilisateur qui n'est pas encore utilisé
+- Donnez lui le numéro de groupe correspondant au groupe users
+  (consultez /etc/group pour le connaitre)
+- Indiquez /home/perm comme répertoire personnel
+- Indiquez /bin/bash comme shell par défaut
+
+Astuce 3.
+Vous pouvez utiliser la commande gedit pour éditer /etc/passwd.
+Et utilisez sudo pour démarrer l'éditeur avec des droits d'administrateur.
+
+Astuce 4.
+Demandez au Permissionneur si il est content de votre travail.

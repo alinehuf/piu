@@ -1,0 +1,15 @@
+
+Astuce 1.
+Le perroquet est parti faire un tour dans /export/tp5/tres/tranquile,
+mais vous pouvez l'interroger d'ici...
+
+Astuce 2.
+Si vous avez redirigé la sortie standard d'un processus avec >, vous
+pouvez indiquer 2>&1 à la fin de votre commande pour indiquer que les
+erreurs doivent être envoyées au même endroit.
+Inversement, si vous avez redirigé les erreurs avec 2>, vous pouvez
+utiliser 1>&2 pour rediriger la sortie standard dans le même fichier !
+
+Astuce 3.
+Redirigez les cris près du perroquet en utilisant un chemin absolu !
+

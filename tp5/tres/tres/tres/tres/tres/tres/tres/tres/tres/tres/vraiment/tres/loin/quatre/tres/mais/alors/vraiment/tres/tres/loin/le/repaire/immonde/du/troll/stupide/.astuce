@@ -1,0 +1,12 @@
+
+Astuce 1.
+Intérrogez le perroquet !
+
+Astuce 2.
+Pour rediriger la sortie d'erreur d'un processus, il suffit d'utiliser 2>.
+
+Astuce 3.
+Pour rediriger la sortie d'un processus dans un fichier sans écrasser
+son contenu existant, il faut utiliser >> (pour la sortie standard) ou
+2>> (pour la sortie d'erreur).
+

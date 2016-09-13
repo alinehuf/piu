@@ -1,0 +1,15 @@
+if [ ! -e ./coffre_au_tresor/ ]; then
+     echo "Je veux bien ouvrir le coffre au trésor, mais je ne le vois pas..."
+else
+	NB=$(find ./ -depth 1 -type f | wc -l)
+
+	if [ $NB -gt 5 ]; then
+	     echo
+	     echo "Il y a beaucoup de fichiers dans ce répertoire, je ne vois pas le coffre..."
+	     echo "Tu peux faire un peu de rangement ?"
+	     echo
+	else
+		chmod u+rwx coffre_au_tresor
+        	echo "Ok, le chemin est ouvert."
+	fi
+fi

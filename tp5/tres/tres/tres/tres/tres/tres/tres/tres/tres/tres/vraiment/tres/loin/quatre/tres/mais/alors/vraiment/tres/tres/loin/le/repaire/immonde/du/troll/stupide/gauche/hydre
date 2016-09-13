@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "ggggrrrrrooooaarrrr !"
+
+echo "keuf keuf keuf, ah zut j'ai encore fait une erreur en tentant de cracher du feu !" 1>&2

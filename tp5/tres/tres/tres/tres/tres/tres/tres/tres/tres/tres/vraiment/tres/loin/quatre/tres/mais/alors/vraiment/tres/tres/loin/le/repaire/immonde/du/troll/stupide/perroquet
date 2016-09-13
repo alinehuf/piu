@@ -1,0 +1,15 @@
+if [ -e cri ] && [ "$(cat cri | grep "Oh mince, j'ai encore fait une erreur !")" != "" ]; then 
+   if [ "$(cat cri | grep "groaff groaff groaff !")" != "" ]; then
+      echo
+      echo "Ok, je dis tout ! Celui qui a caché le trésor est allé dans le répertoire 'gauche'."
+      echo
+   else
+      echo
+      echo "Je voudrais aussi le cri du chientroll dans le même fichier."      
+      echo
+   fi
+else 
+   echo
+   echo "Je serais très loquace si j'ai une jolie erreur de troll dans un fichier 'cri'"
+   echo
+fi

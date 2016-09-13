@@ -1,0 +1,11 @@
+if [ -e ../suivez_moi/repertoire_de_milieu/repertoire_de_gauche/garnison ] && [[ $COUNT2 ]]; then
+     echo "Je ne t'ouvrirais pas le passage tant que tu n'auras pas pris les précautions"
+     echo "nécessaires."
+elif [ -e ../suivez_moi/repertoire_de_milieu/repertoire_de_gauche/garnison ]; then
+     echo "Tu n'as pas détruit le répertoire 'garnison' comme demandé ! Tu peux encore"
+     echo "le supprimer d'ici en indiquant son chemin complet."
+     export COUNT2=1
+else
+	chmod u+rwx repertoire_de_droite
+	echo "Ok, le chemin est ouvert." 
+fi

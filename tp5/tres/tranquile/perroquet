@@ -1,0 +1,13 @@
+CRI="ggggrrrrrooooaarrrr !"
+ERREUR="keuf keuf keuf, ah zut j'ai encore fait une erreur en tentant de cracher du feu !"
+
+if [ -e cri ] && [ "$(cat cri | grep "$CRI")" != "" ] && [ "$(cat cri |  grep "$ERREUR")" != "" ]; then
+   echo
+   echo "Celui qui a caché le trésor est reparti vers /export/tp5/tout/pret"
+   echo
+else
+   echo
+   echo "J'aime les cris de l'hydre, tous ses cris !"
+   echo "Je les veux tous dans un fichier 'cri'."
+   echo
+fi

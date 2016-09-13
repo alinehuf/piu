@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo
+echo "Je suis un perroquet bavard ! crroo"
+echo "Et je suis juste à côté de vous !"
+echo
+echo "Les differents perroquets qui peuplent ces lieux aiment les cris !"
+echo "crrooo !"
+echo
+echo "J'ai vu passer celui qui a caché le trésor et il s'est"
+echo "dirigé vers tres/mais/alors/vraiment/tres/tres/loin."
+echo "Mieux vaut utiliser un lien symbolique pour vous y rendre."
+echo 
+echo "Le prochain perroquet que vous rencontrerez vous aidera."
+echo

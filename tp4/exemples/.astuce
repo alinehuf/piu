@@ -1,0 +1,22 @@
+
+Astuce 1.
+Le listing détaillé des fichiers affiche le groupe dans la 3eme colonne.
+
+Astuce 2.
+Le fichier système /etc/group contient la liste des groupes
+d'utilisateurs de la machine. 
+Chaque ligne est du type :
+
+adm:x:4:syslog
+
+adm    : représente le nom du groupe
+x      : est un champ spécial dont vous n'avez pas besoin de vous 
+         soucier
+4      : est le numéro du groupe GID
+syslog : est le nom d'un utilisateur qui fait partie de ce groupe. Les
+         différents noms sont séparés par des virgules
+
+Astuce 3.
+Vous pouvez utiliser grep pour filtrer les lignes qui contiennent
+votre nom d'utilisateur.
+
