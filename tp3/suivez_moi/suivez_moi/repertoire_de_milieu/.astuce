@@ -1,17 +1,3 @@
 
-Astuce1.
-Ce panneau est illisible... Il semble que chaque lettre de la direction à prendre
-soit placée dans la cinquième colonne de chaque ligne et les colonnes sont séparées
-par le caractère 't'...
-
-Astuce2.
-La commande 'cut' permet de récupérer une colonne particulière dans un fichier. 
-Utilisez 'man cut' pour savoir comment préciser le numéro de la colonne et le 
-séparateur (delimiter) à utiliser.
-
-Astuce3.
-Pour faire uen recherche dans les pages du manuel, on peut taper '/' puis le mot clef
-à rechercher et enfin taper sur la touche Entrer pour commencer la recherche. 
-La touche 'N' permet de rechercher l'occurence suivante. Maj+N permet de revenir 
-en arrière. Cherchez "delimiter" par exemple...
+Si vous lisiez le fichier panneau ? 
 

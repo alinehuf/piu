@@ -16,16 +16,16 @@ from the POSIX spec and a description of the Bash `posix mode'.
 
 =============== INDICATIONS ====================
 
-Voici la clé pour trouver le trésor : vous devez trouver un répertoire qui
-se nomme Le_tresor_est_ici. Dans ce répertoire vous trouverez plein de
-fichiers avec des extensions différentes. Combien il y en a-t-il ? Des
-milliers. Il faudra s'atteler pour les ranger. Créez des répertoires pour
-chaque extension. Ensuite rangez les fichiers par extension dans les
-répertoires correspondants. Le seul fichier sans extension contient
-probablement le trésor.
+Voici la clé pour trouver le trésor : vous devez trouver un répertoire
+qui se nomme Le_tresor_est_ici. Dans ce répertoire vous trouverez
+plein de fichiers avec des extensions différentes. Combien il y en
+a-t-il ? Des milliers. Il faudra s'atteler pour les ranger. Créez des
+répertoires pour chaque extension. Ensuite rangez les fichiers par
+extension dans les répertoires correspondants. Le seul fichier sans
+extension contient probablement le trésor.
 
-note : l'extension d'un fichier est le groupe de 3 ou 4	lettres précédé
-d'un point situé à la fin du nom d'un fichier.
+note : l'extension d'un fichier est le groupe de 3 ou 4 lettres
+précédé d'un point situé à la fin du nom d'un fichier.
 
 
  ad8888888888ba

@@ -1,13 +1,16 @@
 
 Astuce 1.
-Pour supprimer un répertoire vous pouvez faire la commande 'rmdir' ou 'rm -r'
+Si la route est bloquée, taper "perm" pour demander l'aide du Permissionneur
 
 Astuce 2.
+Pour supprimer un répertoire vous pouvez faire la commande 'rmdir' ou 'rm -r'
+
+Astuce 3.
 C'est toujours utile d'avoir un gps quand on part au voyage. La
 variable d'environnement PS1 peut avoir aussi cet effet. 
 Faites "export PS1='\u@\h:\w\$ '"
 
-Astuce 3.
-rmdir ne peux détruire qu'un répertoire	vide...	rm -r peut détruire un
+Astuce 4.
+rmdir ne peux détruire qu'un répertoire vide... rm -r peut détruire un
 répertoire contenant des fichiers.
 

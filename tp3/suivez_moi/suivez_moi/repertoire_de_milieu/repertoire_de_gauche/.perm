@@ -1,7 +1,11 @@
-if [ -e ./tour_de_guet ]; then
-     echo "Pour pouvoir entrer dans la garnison, il faut d'abord détruire la tour"
-     echo "de guet."
+if [ -e ./tour_de_guet1 ] || [ -e ./tour_de_guet2 ]; then
+     echo
+     echo "Pour pouvoir entrer dans la garnison, il faut d'abord détruire les"
+     echo "deux tours de guet"
+     echo
 else
 	chmod u+rwx garnison
+	echo
         echo "Ok, le chemin est ouvert."
+	echo
 fi
